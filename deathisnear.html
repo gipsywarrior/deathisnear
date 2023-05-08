@@ -1,0 +1,94 @@
+<head>
+
+<link rel="stylesheet" href="deathisnear.css">
+<script src="jquery-3.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-ui.js"></script>
+
+<script>
+$(function() {
+  $(".din_nav li").click(function() {
+    $(this).addClass("active").siblings().removeClass("active");
+  });
+});
+</script>
+
+<body> 
+<div id="tabs">
+<div id="deathisnear">
+    <div class="credits">
+        <p>
+            Deviant
+        </p>
+    </div>
+    <div class="din_header">
+        <div class="din_button">
+            <p>
+                死
+            </p>
+            <div class="din_nav">
+                <h1>
+                    Pop up! >///<
+                </h1>
+                <ul>
+                    <li class="active">
+                        <a href="#tabs1">Bitácora</a>
+                    </li>
+                    <li >
+                        <a href="#tabs2">Retrato</a>
+                    </li>
+                    <li>
+                        <a href="#tabs3">Galería</a>
+                    </li>
+                    <li>
+                        <a href="#tabs4">Registro</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="din_header_title">Erika Grimes</div>
+        <div class="din_header_img"></div>
+        <div class="din_header_sub">I care not, a man can die but once; we owe God and death.</div>
+    </div>
+    <div class="din_body">
+        <div class="din_p4" id="tabs4">
+            hola
+        </div>
+        <div class="din_p3" id="tabs3">
+            hola
+        </div>
+        <div class="din_p2" id="tabs2">
+            hola
+        </div>
+        <div class="din_p1" id="tabs1">
+            <div class="din_p1top">
+                <div class="din_heart"></div>
+                <h1>Deviant</h1>
+                <h2>My Hero Academia</h2>
+                <h3>07.05.23</h3>
+            </div>
+            <div class="din_p1title">Bitácora</div>
+            <div class="din_p1txt">
+                <p>
+                    <b>Raza</b> Humana<br>
+                    <b>Genero</b> Femenino<br>
+                    <b>Edad_aparente</b> Adolescente<br>
+                    <b>Agrupación</b> !undefined<br>
+                    <b>Quirk</b> !undefined<br>
+                    <b>Perfiles</b> !undefined<br>
+                    <b>Grupo_sanguíneo</b> !undefined<br>
+                    <b>Rango</b> D<br>
+                    <b>Alineamiento</b> Neutral<br>
+                    <b>Experiencia</b> 0/0/0<br>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+
+<script type="text/javascript">
+    $("#tabs").tabs();
+    </script>
+
+</head>

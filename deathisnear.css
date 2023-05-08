@@ -1,0 +1,268 @@
+/*DEATH IS NEAR! profile by DEVIANT*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div, p, span, h1, h2, h3, img {
+    box-sizing:border-box;
+}
+
+html, a {
+    cursor: url(/cursor.gif), pointer;
+}
+
+::-moz-selection {
+    color: white;
+    background: #ff5aba6b;
+  }
+  
+::selection {
+    color: white;
+    background: #ff5aba6b;
+  }
+
+body {
+    background: #282828;
+    position: relative;
+    padding: 30px;
+}
+
+.credits {
+    position: absolute;
+    background: black;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 1px solid white;
+    font-family: 'Syncopate';
+    font-size: 30px;
+    letter-spacing: 100px;
+    right: 0;
+    bottom: 0;
+    margin: -15px;
+    transition-property: letter-spacing, width, border-radius;
+    transition-delay: 0s, 0s, 0.5s;
+    transition-duration: 0.5s, 0.5s, 0.5s;
+    z-index: 666
+}
+
+.credits p {margin: 10px}
+
+.credits:hover {
+    border-radius: 0%;
+    width: 200px;
+    letter-spacing: 0;
+    font-size: 30px;
+    transition-property: letter-spacing, width, border-radius;
+    transition-delay: 0.5s, 0.5s, 0s;
+    transition-duration: 0.5s, 0.5s, 0.5s;
+}
+
+#deathisnear {
+    width: 560px;
+    border: 1px solid white;
+    font-smooth: always;
+    color:white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.din_header {
+    height: 295px;
+    background: black;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.din_button p {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 8px 15px;
+    padding: 5px 10px;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+
+.din_button p:hover {
+    color: #ff65c0;
+    transition: 0.3s;
+}
+
+.din_nav {
+    position: absolute;
+    overflow: hidden;
+    width: 170px;
+    background: black;
+    margin: 40px;
+    padding: 15px;
+    border: 1px solid white;
+    text-align: left;
+    font-family: 'Consolas';
+    font-size: 13px;
+    font-weight: normal;
+    color:#ff65c0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    left: -50px;
+}
+
+.din_button:hover > .din_nav {
+    left: 0px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.din_nav h1 {
+    font-weight: normal;
+    font-size: 13px;
+    margin-bottom: 5px;
+    text-transform: lowercase;
+    color: white;
+}
+
+.din_nav li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.din_nav li a {
+    color:#ff65c0;
+    text-decoration: none
+}
+
+.din_nav li::before {
+    content: ">>>";
+    margin-left: 22px
+}
+
+.din_nav li:hover, .din_nav li a:hover {
+    color: white!important;
+}
+
+.din_nav li:hover::after {
+    content: "<3";
+}
+
+.active, .active a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.din_header_title {
+    font-family: 'Syncopate';
+    font-size: 30px;
+    padding: 20px 0 15px
+}
+
+.din_header_img {
+    height: 180px;
+    background-image: url(/misamisa.png)
+}
+
+.din_header_sub {
+    font-family: 'Nueva STD Condensed';
+    font-size: 24px;
+    padding: 12px
+}
+
+.din_body {
+    background: url(/paisaje2.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.din_p1 {
+    background: black;
+    padding: 15px 30px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.din_p1top {
+    font-family: 'Nueva STD Condensed';
+    text-transform: lowercase;
+    line-height: 25px;
+} 
+
+.din_p1top h1 {
+    font-size: 24px;
+    font-weight: normal;
+    font-style: oblique;
+    margin-left: 40px;
+    margin-top: -18px
+}
+
+.din_p1top h2 {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.din_p1top h3 {
+    font-size: 14px;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: -6px;
+}
+
+.din_heart {
+    width: 280px;
+    height: 103px;
+    background: url(/heart.png)
+}
+
+.din_p1txt {
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+    border: 1px solid white;
+    font-family: 'Consolas';
+    color: #ff65c0;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 15px 5px;
+    text-transform: lowercase;
+}
+
+.din_p1txt b {
+    color: white;
+    font-weight: normal;
+}
+
+.din_p1title {
+    font-family: 'Syncopate';
+    font-size: 32px;
+    color: black;
+    text-shadow: 1px 0 white, -1px 0 white, 0 1px white, 0 -1px white;
+    position: absolute;
+    margin-left: -125px;
+    margin-top: -31px
+}
+
+.din_p2, .din_p3, .din_p4 {
+    width: 100%;
+    height: 416px;
+    background: red;
+}
+
+.din_p3 {
+    background: purple
+}
+
+.din_p4 {
+    background: blue
+}

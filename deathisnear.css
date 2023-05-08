@@ -201,24 +201,24 @@ body {
     font-size: 24px;
     font-weight: normal;
     font-style: oblique;
-    margin-left: 40px;
+    margin-left: 45px;
     margin-top: -18px
 }
 
 .din_p1top h2 {
     font-size: 30px;
-    margin-left: 40px;
+    margin-left: 45px;
 }
 
 .din_p1top h3 {
     font-size: 14px;
     text-align: right;
-    margin-right: 50px;
+    margin-right: 55px;
     margin-top: -6px;
 }
 
 .din_heart {
-    width: 280px;
+    width: 290px;
     height: 103px;
     background: url(heart.png)
 }

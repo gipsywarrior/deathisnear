@@ -10,7 +10,7 @@ div, p, span, h1, h2, h3, img {
 }
 
 html, a {
-    cursor: url(/cursor.gif), pointer;
+    cursor: url(cursor.gif), pointer;
 }
 
 ::-moz-selection {
@@ -26,7 +26,9 @@ html, a {
 body {
     background: #282828;
     position: relative;
-    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .credits {
@@ -69,11 +71,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
 }
 
 .din_header {
@@ -168,7 +165,7 @@ body {
 
 .din_header_img {
     height: 180px;
-    background-image: url(/misamisa.png)
+    background-image: url(misamisa.png)
 }
 
 .din_header_sub {
@@ -178,7 +175,7 @@ body {
 }
 
 .din_body {
-    background: url(/paisaje2.png);
+    background: url(paisaje2.png);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,7 +220,7 @@ body {
 .din_heart {
     width: 280px;
     height: 103px;
-    background: url(/heart.png)
+    background: url(heart.png)
 }
 
 .din_p1txt {
